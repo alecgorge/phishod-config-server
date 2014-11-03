@@ -1,0 +1,25 @@
+{
+  "name": "phishod-config-server",
+  "version": "1.0.0",
+  "description": "phishod-config-server =====================",
+  "main": "src/index.coffee",
+  "scripts": {
+    "start": "./node_modules/.bin/coffee src/index.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alecgorge/phishod-config-server.git"
+  },
+  "author": "Alec Gorge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alecgorge/phishod-config-server/issues"
+  },
+  "homepage": "https://github.com/alecgorge/phishod-config-server",
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "express": "^4.10.1",
+    "morgan": "^1.4.1",
+    "plist": "^1.1.0"
+  }
+}
