@@ -8,6 +8,7 @@ app = express()
 app.use morgan 'dev'
 
 app.get "/app-config.plist", (req, res) ->
+	res.set 'Content-Type', 'application/x-plist'
 	res.send plist.build({
 		'api_domain': 'phishin.app.alecgorge.com',
 		'mp3_domain': 'phishin.app.alecgorge.com'
