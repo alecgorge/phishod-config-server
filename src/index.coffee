@@ -16,6 +16,7 @@ app.get "/app-config.plist", (req, res) ->
 	res.send plist.build({
 		'api_domain': 'phishin_api.alecgorge.com',
 		'mp3_domain': 'phishin_api.alecgorge.com',
+		'media_domain': 'phishodmedia.alecgorge.com',
 		'images': images
 	}).toString()
 
